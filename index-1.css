@@ -1,0 +1,44 @@
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+Paste Your JavaScript Here for post page
+</b:if>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<!-- Paste Your JavaScript Here for Static Page -->
+</b:if>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<!-- Paste Your JavaScript Here for Homepage -->
+</b:if>
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+<!-- Paste Your JavaScript Here for 404 Error Page -->
+</b:if>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<b:if cond='data:blog.searchLabel'>
+<!-- Paste Your JavaScript Here for Label Page -->
+</b:if>
+</b:if>
+<script type="text/javascript">
+function swtJavaErrors(){
+document.getElementById("Showeblogin");
+var e=document.createElement("script");
+e.type="text/javascript";
+e.async=false;
+(document.getElementsByTagName("SWT");
+document.write("<");}
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function swtJavaErrors(){
+document.getElementById("Showeblogin");
+var e=document.createElement("script");
+e.type="text/javascript";
+e.async=false;
+(document.getElementsByTagName("SWT");
+document.write("<");}
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+
+Place your JavaScript codes here
+
+//]]>
+</script>
